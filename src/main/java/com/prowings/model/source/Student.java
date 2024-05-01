@@ -1,25 +1,22 @@
 package com.prowings.model.source;
 
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
-public class Person {
+public class Student {
 
+	private int roll;
 	private String name;
-	private int age;
-	private String address;
-	private String hight;
-	private int mode;
-	private Long birthDate;
-	
-	
-	
+	private List<Address> addresses;
 }

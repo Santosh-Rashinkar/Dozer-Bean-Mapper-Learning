@@ -1,24 +1,20 @@
-package com.prowings.model.source;
+package com.prowings.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Person {
+public class Candidate {
 
-	private String name;
-	private int age;
-	private String address;
-	private String hight;
-	private int mode;
-	private Long birthDate;
+	private int id;
+	private String completeName;
+	private AddressDTO[] corruspondance;	
 	
 	
 	

@@ -11,15 +11,10 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Person {
+public class Address {
 
-	private String name;
-	private int age;
-	private String address;
-	private String hight;
-	private int mode;
-	private Long birthDate;
-	
-	
+	private int pin;
+	private String city;
+	private String country;
 	
 }
